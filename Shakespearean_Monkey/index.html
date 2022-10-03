@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA-Shakesearean-Monkey</title>
+    <script src="src/p5.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-xxl" style="background-color: #74ffce; width: 100vw; display: flex ; align-items: center; justify-content: center;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Genetic Algorithm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://github.com/thivinanandh/Genetic_Algorithm">Github</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
+              </li> -->
+            </ul>
+       
+          </div>
+        </div>
+      </nav>
+    <!-- Create 2 Divs  -->
+
+    <div id="parentDiv">
+
+        <div id="leftDiv">
+            <div> The Actual Phrase is </div>
+            <div id="titlePhrase" class="actualPhrase"> </div>
+            <div id="predictedPhrase" class="actualPhrase"> </div>
+            <div id="stats">
+                <div class="rowFlex">
+                    <div class="rowItem"> Generation :</div>
+                    <div class="rowItem" id="generation"> 0 </div>
+                </div>
+                <div class="rowFlex">
+                    <div class="rowItem"> Population : </div>
+                    <div class="rowItem" id="Population"> 200 </div>
+
+                </div>
+                <div class="rowFlex">
+                    <div class="rowItem"> Fitness Score :</div>
+                    <div class="rowItem" id="Fitness"> 0.859 </div>
+                </div>
+
+                <div class="rowFlex">
+                    <div class="rowItem"> Mutation :</div>
+                    <div class="rowItem" id="Mutation"> 2 </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="inputParam">
+           
+            <div>
+                <h2>Input Parameters </h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <p>Text</p>
+                            <!-- <input type="text" value="Shakespearean Monkey..!"  id="TextVal"> -->
+                            <input type="name" class="form-control" id="TextVal_1"
+                                placeholder="Shakespearean Monkey..!" value="Shakespearean Monkey..!">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <p>Population</p>
+                            <input type="range" min="10" max="8000" value="800" class="slider"
+                                id="populationSlider">
+                            <input type="name" class="form-control" id="Population_1" placeholder="800" value="800">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <p>Mutation %</p>
+                            <input type="range" min="0" max="100" value="2" class="slider" id="mutationSlider">
+                            <input type="name" class="form-control" id="Mutation_1" placeholder="2" value="2">
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+
+            <div id="Buttons">
+                <button type="button" class="btn btn-success" onclick="StartSimulation()">Start</button>
+                <button type="button" onclick="noLoop()" class="btn btn-warning">Pause</button>
+                <button type="button" onclick="loop()" class="btn btn-danger">Resume</button>
+            </div>
+            
+        </div>
+
+    
+    </div>
+
+    <h3>Population with Top fittness scores</h3>
+    <div id="rightDiv">
+        
+        <p id="generations"> test 2</p>
+    </div>
+
+  
+     
+
+        <script src="src/Sketch.js"></script>
+        <script src="src/Population.js"></script>
+        <script src="src/bootstrap.min.js"></script>
+        <script src="src/Population.js"></script>
+        <!-- <script src="src/Population.js"></script> -->
+
+
+</body>
+
+</html>

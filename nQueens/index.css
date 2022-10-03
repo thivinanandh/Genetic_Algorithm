@@ -1,0 +1,84 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+body #parentDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body #parentDiv #leftDiv {
+  width: auto;
+  border: 1px solid black;
+  background-color: rgb(182, 255, 255);
+  height: auto;
+  min-width: 450px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body #parentDiv #leftDiv #Canvas {
+  border: 3px solid black;
+}
+body #parentDiv #leftDiv .actualPhrase {
+  font-size: 3rem;
+  font-weight: 700;
+}
+body #parentDiv #leftDiv #stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+body #parentDiv #leftDiv #stats .rowFlex {
+  min-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+body #parentDiv #leftDiv #stats .rowFlex .rowItem {
+  min-width: 200px;
+}
+body #parentDiv #leftDiv #stats .rowFlex2 {
+  min-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body #parentDiv #leftDiv #stats .rowFlex2 .rowItem {
+  min-width: 200px;
+}
+body #parentDiv #rightDiv {
+  width: auto;
+  border: 1px solid black;
+  background-color: rgb(255, 209, 144);
+  height: auto;
+  min-width: 400px;
+  padding: 20px;
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */

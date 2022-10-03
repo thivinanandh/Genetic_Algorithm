@@ -1,0 +1,77 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+body #parentDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body #parentDiv #leftDiv {
+  width: 800px;
+  border: 1px solid black;
+  background-color: rgb(182, 255, 255);
+  height: 450px;
+  min-width: 450px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body #parentDiv #leftDiv .actualPhrase {
+  font-size: 3rem;
+  font-weight: 700;
+}
+body #parentDiv #leftDiv #stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+body #parentDiv #leftDiv #stats .rowFlex {
+  min-width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+body #parentDiv #leftDiv #stats .rowFlex .rowItem {
+  min-width: 150px;
+}
+body #parentDiv #inputParam {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+body #rightDiv {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  border: 1px solid black;
+  background-color: rgb(255, 209, 144);
+  height: 400px;
+  min-width: 450px;
+}
+body #Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}/*# sourceMappingURL=index.css.map */
