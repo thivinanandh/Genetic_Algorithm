@@ -1,38 +1,11 @@
-# Genetic Algorithm
----
-
-Collection of Codes which depicts the Working of Genetic Algorithm. All the codes have been generated using javascript
 
 
-## Links:
----
-
-* [Shakespearean Monkey](https://thivinanandh.github.io/Genetic_Algorithm/Shakespearean_Monkey/)
-* [n-Queens Chess Problem](https://thivinanandh.github.io/Genetic_Algorithm/nQueens/)
-
-
-## Terminologies in Genetic Algorithm
----
-
-* Fittness Function - This is the metric which defines which of the current population is fit or not. 
-* Fitness Score - Determines how fit a given gnome sequence in a population is in comparision with the expected result
-* Cross Over    - Process of getting data from two different gnome sequence to create a new sequence
-* mutation      - A process where a ranomness is induced in the gnome sequence ( which is not already present in the current population)
-
-## Shakespearean Monkey
----
-
-![](Images/sm.png)
-
-When user provides the Exact text to be matched, the GA creates a population with random charecters (as genes). At every generation, it tries to check which of the population is more fit for next generation. The fitness function here is just the number of charecters matched between the current gnome sequence and the exact string. 
-
-
-## n-Queens Problem
+# n-Queens Problem
 ---
 
 Solves the n-Queen problem on varying board sizes. The objective of this is to place n queens in a n*n board such that each queen does not interfere with any other queen on the board
 
-![](Images/nq.png)
+![](../Images/nq.png)
 
 ### Fitness Function 
 
