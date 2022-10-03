@@ -3,6 +3,9 @@
 # n-Queens Problem
 ---
 
+ [Link to webpage](https://thivinanandh.github.io/Genetic_Algorithm/nQueens/)
+
+
 Solves the n-Queen problem on varying board sizes. The objective of this is to place n queens in a n*n board such that each queen does not interfere with any other queen on the board
 
 ![](../Images/nq.png)

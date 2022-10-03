@@ -21,6 +21,8 @@ Collection of Codes which depicts the Working of Genetic Algorithm. All the code
 
 ## Shakespearean Monkey
 ---
+ [Link to webpage](https://thivinanandh.github.io/Genetic_Algorithm/Shakespearean_Monkey/)
+
 
 ![](Images/sm.png)
 
@@ -29,6 +31,8 @@ When user provides the Exact text to be matched, the GA creates a population wit
 
 ## n-Queens Problem
 ---
+
+ [Link to webpage](https://thivinanandh.github.io/Genetic_Algorithm/nQueens/)
 
 Solves the n-Queen problem on varying board sizes. The objective of this is to place n queens in a n*n board such that each queen does not interfere with any other queen on the board
 
@@ -50,3 +54,8 @@ There are various cross over methods, that have been implemented as part of this
 
 
 Note : The use of this unique cross over function and the fitness function solves an 8*8 problem **10 times faster** than the normal methods
+
+## Credits
+---
+
+The Basics of Genetic Algorithm and the boiler plate code to start with GA in p5.js is referred from [Daniel Shiffman](https://shiffman.net/)
